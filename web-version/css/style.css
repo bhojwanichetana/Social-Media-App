@@ -443,9 +443,9 @@ body{
 }
 
 .pd-image{
-    width: 100px;
+    width: 120px;
     margin-right: 20px;
-    border-radius: 6px;
+    border-radius: 50%;
 }
 
 .pd-row div h3{

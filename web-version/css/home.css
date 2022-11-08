@@ -414,3 +414,12 @@ body{
         transform:scale(1);
     }
  }
+.right-sidebar{
+    display: flex;
+    align-items: center;
+    margin-left:80%;
+    padding:20px;
+}
+.suggestion-heading{
+    margin-top:50px;
+}
