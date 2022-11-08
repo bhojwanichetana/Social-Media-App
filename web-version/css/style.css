@@ -12,6 +12,7 @@ body{
     width:100%;
     position:relative;
     background: #fff;  
+    overflow-x: hidden;
 }
 :root{
     --gradient: linear-gradient(to right, #e2336b,#fcac46);
@@ -146,13 +147,14 @@ body{
 .profile-container{
     margin-left:100px;
     width:100%;
+    
 }
 
 .post-scroll{
     margin-left: 100px;
 }
 .post{
-    width: 100%;
+    width: 80%;
     height: auto;
     background: #fff;
     border: 1px solid #dfdfdf;
