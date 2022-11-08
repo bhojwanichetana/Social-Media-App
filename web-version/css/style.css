@@ -143,91 +143,16 @@ body{
 
 }
 
-
-.search{
-    display:flex;
-    align-items: center;
-    background: #fafafa;
-    width:200;
-    top:20px;
-    height: 2.4rem;
-    padding:10px;
-    border-radius:10px;
-}
-.search input{
-    border:none;
-    outline: none;
-    background: transparent;
-    margin-left:10px;
-}
-.search o{
-    font-size:20px;
-}
-
-.stories-gallery{
-    padding:20px;
-    display:flex;
-    justify-content:space-between;
-    margin-bottom:20px;
-
-}
-
-.story{
-    flex-basis:18%;
-    padding-top:32%;
-    position:relative;
-    background-position: center;
-    background-size: cover;
-    border-radius:10px;
-}
-
-.story img{
-    position:absolute;
-    width: 45px;
-    height:45px;
-    border-radius:50%;
-    top:10px;
-    left:10px;
-    border:1px solid #fff;
-}
-
-.story p{
-    position:absolute;
-    bottom:10px;
+.profile-container{
+    margin-left:100px;
     width:100%;
-    text-align:center;
-    color:#fff;
-    font-size: 14px;;
-}
-.story1{
-    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)),url(https://images.pexels.com/photos/11757303/pexels-photo-11757303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-}
-.story2{
-    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)),url(https://img.freepik.com/free-photo/landscape-shot-beautiful-cholatse-mountains-body-water-khumbu-nepal_181624-24825.jpg?w=900&t=st=1667915241~exp=1667915841~hmac=af820e0bcdf4092b277f176b45987909bd2c297f7a65b85dc49814c5572f6ab8);
-}
-.story3{
-    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)),url(https://img.freepik.com/free-photo/indian-chicken-biryani-served-terracotta-bowl-with-yogurt-white-background-selective-focus_466689-72554.jpg?w=900&t=st=1667915268~exp=1667915868~hmac=8ab5bfcf438c54d5bb46f83057e8176c598bb7756b65d34f97fed1f1775a9f1b);
-}
-.story4{
-    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)),url(https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?w=900&t=st=1667915296~exp=1667915896~hmac=4fddad3ac7cd9602eecdef900a152e4bf402691a7484bf9ab8700ca50862103d);
-}
-.story5{
-    background-image: linear-gradient(transparent,rgba(0,0,0,0.5)),url(https://img.freepik.com/free-photo/portrait-young-indian-top-manager-t-shirt-tie-crossed-arms-smiling-white-isolated-wall_496169-1513.jpg?w=900&t=st=1667915302~exp=1667915902~hmac=6111604df350d9fd8ae08b3aeab8d6ca54b7cc9a8c33c3dd25ae16d56d536b96);
 }
 
-.story .story1 img{
-    top:unset;
-    left:50%;
-    bottom:40px;
-    transform:translateX(-50%);
-    border:0;
-    width:35px;
-}
 .post-scroll{
     margin-left: 100px;
 }
 .post{
-    width: 80%;
+    width: 100%;
     height: auto;
     background: #fff;
     border: 1px solid #dfdfdf;
